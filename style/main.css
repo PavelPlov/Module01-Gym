@@ -1,0 +1,128 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+header {    
+    max-width: 1141px;
+    margin: 0 auto;
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 27px;
+}
+.header-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 57.5%;
+}
+.header-nav {
+    display: flex;
+    list-style-type: none;
+    gap: 54px;
+    font-size: 18px;
+}
+.header-nav a {
+    text-decoration: none;
+    white-space: nowrap;
+}
+.header-logo {
+    display: block;
+    background-image: url(../images/logo.svg);
+    width: 97px;
+    height: 30px;
+}
+.header-if {
+    display: flex;
+    gap: 30px;
+}
+.header-inst {
+    background-image: url(../images/instlogo.svg);
+    width: 30px;
+    height: 30px;
+}
+.header-facebook {
+    background-image: url(../images/flogo.svg);
+    width: 30px;
+    height: 30px;
+}
+main {
+    max-width: 1141px;
+    margin: 0 auto;
+    position: relative;
+  
+}
+.banner h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    color: #2B3541;
+    max-width: 676px;
+    padding-top: 215px;
+    margin-top: 0;
+    margin-bottom: 43px;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    
+}
+.banner-workout {
+    font-size: 40px;
+    color: #2B3541;
+    margin-bottom: 22px;  
+}
+.banner-workout span {
+    margin-right: 10px;  
+}
+.banner-text {
+    max-width: 297px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 58px;
+    padding-left: 88px;   
+}
+.banner-link {
+    background-color: #FBF138;
+    color: #2B3541;
+    padding: 20px 30px;
+    font-size: 16px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-left: 92px;
+    letter-spacing: 0.03em;
+}
+.box-menu {
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: -10px;
+    z-index: -1;
+    right: -76px;
+    overflow: hidden;
+}
+.left-gradient {
+    background: linear-gradient(90deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 145.23%);
+    width: 535px;
+    height: 850px;
+    opacity: 0.2;
+}
+.right-gradient {
+    background: linear-gradient(90deg, #FDF9B6 0%, rgba(253, 249, 182, 0.7) 166.81%);
+    width: 235px;
+    height: 850px;
+    opacity: 0.2;  
+}
+.img-girl {
+    background-image: url(../images/girl.png);
+    width: 996px;
+    height: 850px;
+    position: absolute;
+    left: 49%;
+    right: 0;
+    top: 55%;
+    object-fit: cover;
+    transform:translate(-50%,-50%);
+    background-repeat: no-repeat;    
+}
