@@ -31,20 +31,135 @@
         </div>  
     </header>
     <main>
-        <div class="banner">
-            <h1>Онлайн тренировки любой сложности</h1>
-            <p class="banner-workout">
-                <span>&gt 15</span>
-                тренировок
-            </p>
-            <p class="banner-text">в области спортивной физиологии и нутрициологии</p>
-            <a href="#" class="banner-link">Узнать подробнее</a>
-        </div>
-        <div class="box-menu">
-            <div class="left-gradient"></div>
-            <div class="right-gradient"></div>
-            <div class="img-girl"></div>
+        <div class="banner-main">
+            <div class="banner">
+                <h1>Онлайн тренировки любой сложности</h1>
+                <p class="banner-workout">
+                    <span>&gt 15</span>
+                    тренировок
+                </p>
+                <p class="banner-text">в области спортивной физиологии и нутрициологии</p>
+                <a href="#" class="banner-link">Узнать подробнее</a>
+                <a href="#" class="botton-down" id="btnUp"></a>
+            </div>
+            <div class="box-menu">
+                <div class="left-gradient"></div>
+                <div class="right-gradient"></div>
+                <span class="img-girl"></span>   
+            </div>
         </div>
     </main>
+    <article>
+        <h2>Ближайшие события</h2>
+        <div class="box">
+            <section class="box-one">
+                <div class="box-gradient">
+                    <p class="box-data">29.06 - 4.07</p>
+                    <h3 class="text-box">Марафон выносливости</h3>
+                    <a href="#" class="box-button">Учавствовать</a>
+                    <p href="#" class="box-type">марафон</p>
+                </div>
+            </section>
+            <section class="box-two">
+                <div class="box-gradient">
+                    <p class="box-data">9.07</p>
+                    <h3 class="text-box">Как стать<br />тренером?</h3>
+                    <a href="#" class="box-button">Учавствовать</a>
+                    <p href="#" class="box-type">вебинар</p>
+                </div>
+            </section>
+            <section class="box-three">
+                <div class="box-gradient">
+                    <p class="box-data">15.07</p>
+                    <h3 class="text-box">Йога, как стиль<br />жизни</h3>
+                    <a href="#" class="box-button">Учавствовать</a>
+                    <p href="#" class="box-type">вебинар</p>
+                </div>
+            </section>
+        </div> 
+    </article>
+    <div class="schedule">
+        <div class="flex-schedule">
+            <p class="flex-text">Расписание<br />тренировок</p>
+            <p class="flex-data">22 - 28 июня</p>
+        </div>
+        <div class="menu-grid">
+            <div class="grid-item">
+                <div class="grid-active">
+                    <p class="grid-data">22 июня, 10:00</p>
+                    <img class="grid-body" src="/images/body.svg" alt="">
+                    <h3 class="text-body">Функциональный тренинг</h3>
+                    <p class="active-p">Развитие силы, выносливости, скорости, ловкости, силы.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-active">
+                    <p class="grid-data">24 июня, 10:00</p>
+                    <img class="grid-bottle" src="/images/bottle.svg" alt="">
+                    <h3 class="text-bottle">body sculpt</h3>
+                    <p class="active-p">Тренировки, снижающие вес и помогающие нарастить мышцы и стать пластичнее.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-active">
+                    <p class="grid-data">26 июня, 11:00</p>
+                    <img class="grid-dumbbell" src="/images/dumbbell.svg" alt="">
+                    <h3 class="text-dumbbell">L.A.B</h3>
+                    <p class="active-dumbbell">Силовая тренировка с акцентом на мышцы ягодиц, ног и пресса.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="active">
+                    <p class="grid-data">23 июня, 10:00</p>
+                    <img class="grid-jump" src="/images/jump.svg" alt="">
+                    <h3 class="text-jump">Силовой микс</h3>
+                    <p class="text-active">Упражнения помогут создать красивый рельеф и прийти<br/>в спортивную форму.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-active">
+                    <p class="grid-data">25 июня, 11:00</p>
+                    <img class="grid-heart" src="/images/heart.svg" alt="">
+                    <h3 class="text-heart">Дыхательные практики</h3>
+                    <p class="active-p"> Природный способ воздействовать на организм с целью его оздоровления.</p>
+                </div>
+            </div>
+            <div class="grid-item">
+                <div class="grid-active">
+                    <p class="grid-data">27 июня, 10:00</p>
+                    <img class="grid-weight" src="/images/weight.svg" alt="">
+                    <h3 class="text-weight">Комплексная разминка</h3>
+                    <p class="active-p">Комплекс упражнений, направленный на подготовку организма к самой тренировке.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="subscription">
+        <div class="subscription-items">
+            <div>
+                <h3 class="h-circle">Подпишитесь на рассылку</h3>
+            </div>
+            <form class="subscription-form" action="">
+                <input class="subscription-input" type="email" placeholder="Ваш e-mail">
+                <button class="subscription-button" type="submit">Подписаться</button>
+            </form>  
+            <div class="agreement">
+                <input type="checkbox" id="01" class="checkbox">
+                <label class="agreement-text" for="01">Согласен с обработкой <a href="" target="_blank" class="agreement-a">персональных данных</a>
+                </label>
+            </div>    
+        </div>
+    </div>
+    <div class="before-footer">
+        <div class="before-footer-items">
+                <h3 class="before-h">О компании</h3>
+                <p class="before-text">Наша компания является одной из немногих, кто предлагает фитнес услуги онлайн! Оставайтесь<br />с нами и вы сами увидите, что мы проводим<br />не только онлайн-тренировки.</p> 
+                <a class="before-button">Записаться</a>
+                <img class="trainer" src="images/trainer.png" alt="">
+                
+        </div>
+    </div>
+    <script>
+    </script>
 </body>
 </html>
