@@ -16,6 +16,7 @@
         <div class="header">
             <div class="header-item">
                 <a href="#" class="header-logo"></a>
+                <button class="burger" onclick="openModal()"></button>
                 <nav>
                     <ul class="header-nav">
                         <li><a href="#">Мероприятия</a></li>
@@ -40,7 +41,7 @@
                 </p>
                 <p class="banner-text">в области спортивной физиологии и нутрициологии</p>
                 <a href="#" class="banner-link">Узнать подробнее</a>
-                <a href="#" class="botton-down" id="btnUp"></a>
+                <a href="#box-article" class="botton-down" id="btnUp"></a>
             </div>
             <div class="box-menu">
                 <div class="left-gradient"></div>
@@ -50,33 +51,35 @@
         </div>
     </main>
     <article>
-        <h2>Ближайшие события</h2>
-        <div class="box">
-            <section class="box-one">
-                <div class="box-gradient">
-                    <p class="box-data">29.06 - 4.07</p>
-                    <h3 class="text-box">Марафон выносливости</h3>
-                    <a href="#" class="box-button">Учавствовать</a>
-                    <p href="#" class="box-type">марафон</p>
-                </div>
-            </section>
-            <section class="box-two">
-                <div class="box-gradient">
-                    <p class="box-data">9.07</p>
-                    <h3 class="text-box">Как стать<br />тренером?</h3>
-                    <a href="#" class="box-button">Учавствовать</a>
-                    <p href="#" class="box-type">вебинар</p>
-                </div>
-            </section>
-            <section class="box-three">
-                <div class="box-gradient">
-                    <p class="box-data">15.07</p>
-                    <h3 class="text-box">Йога, как стиль<br />жизни</h3>
-                    <a href="#" class="box-button">Учавствовать</a>
-                    <p href="#" class="box-type">вебинар</p>
-                </div>
-            </section>
-        </div> 
+        <div id="box-article">
+            <h2>Ближайшие события</h2>
+            <div class="box">
+                <section class="box-one">
+                    <div class="box-gradient">
+                        <p class="box-data">29.06 - 4.07</p>
+                        <h3 class="text-box">Марафон выносливости</h3>
+                        <a href="#" class="box-button">Учавствовать</a>
+                        <p href="#" class="box-type">марафон</p>
+                    </div>
+                </section>
+                <section class="box-two">
+                    <div class="box-gradient">
+                        <p class="box-data">9.07</p>
+                        <h3 class="text-box">Как стать<br />тренером?</h3>
+                        <a href="#" class="box-button">Учавствовать</a>
+                        <p href="#" class="box-type">вебинар</p>
+                    </div>
+                </section>
+                <section class="box-three">
+                    <div class="box-gradient">
+                        <p class="box-data">15.07</p>
+                        <h3 class="text-box">Йога, как стиль<br />жизни</h3>
+                        <a href="#" class="box-button">Учавствовать</a>
+                        <p href="#" class="box-type">вебинар</p>
+                    </div>
+                </section>
+            </div> 
+        </div>
     </article>
     <div class="schedule">
         <div class="flex-schedule">
@@ -89,7 +92,7 @@
                     <p class="grid-data">22 июня, 10:00</p>
                     <img class="grid-body" src="/images/body.svg" alt="">
                     <h3 class="text-body">Функциональный тренинг</h3>
-                    <p class="active-p">Развитие силы, выносливости, скорости, ловкости, силы.</p>
+                    <p class="active-body">Развитие силы, выносливости, скорости, ловкости, силы.</p>
                 </div>
             </div>
             <div class="grid-item">
@@ -97,7 +100,7 @@
                     <p class="grid-data">24 июня, 10:00</p>
                     <img class="grid-bottle" src="/images/bottle.svg" alt="">
                     <h3 class="text-bottle">body sculpt</h3>
-                    <p class="active-p">Тренировки, снижающие вес и помогающие нарастить мышцы и стать пластичнее.</p>
+                    <p class="active-bottle">Тренировки, снижающие вес и помогающие нарастить мышцы и стать пластичнее.</p>
                 </div>
             </div>
             <div class="grid-item">
@@ -108,7 +111,7 @@
                     <p class="active-dumbbell">Силовая тренировка с акцентом на мышцы ягодиц, ног и пресса.</p>
                 </div>
             </div>
-            <div class="grid-item">
+            <div class="grid-item-active">
                 <div class="active">
                     <p class="grid-data">23 июня, 10:00</p>
                     <img class="grid-jump" src="/images/jump.svg" alt="">
@@ -121,7 +124,7 @@
                     <p class="grid-data">25 июня, 11:00</p>
                     <img class="grid-heart" src="/images/heart.svg" alt="">
                     <h3 class="text-heart">Дыхательные практики</h3>
-                    <p class="active-p"> Природный способ воздействовать на организм с целью его оздоровления.</p>
+                    <p class="active-heart"> Природный способ воздействовать на организм с целью его оздоровления.</p>
                 </div>
             </div>
             <div class="grid-item">
@@ -129,7 +132,7 @@
                     <p class="grid-data">27 июня, 10:00</p>
                     <img class="grid-weight" src="/images/weight.svg" alt="">
                     <h3 class="text-weight">Комплексная разминка</h3>
-                    <p class="active-p">Комплекс упражнений, направленный на подготовку организма к самой тренировке.</p>
+                    <p class="active-weight">Комплекс упражнений, направленный на подготовку организма к самой тренировке.</p>
                 </div>
             </div>
         </div>
@@ -140,8 +143,9 @@
                 <h3 class="h-circle">Подпишитесь на рассылку</h3>
             </div>
             <form class="subscription-form" action="">
-                <input class="subscription-input" type="email" placeholder="Ваш e-mail">
+                <input class="subscription-input" type="email" placeholder="Ваш e-mail" required/>
                 <button class="subscription-button" type="submit">Подписаться</button>
+                <p class="text-invalid">Некорректный адрес e-mail</p>
             </form>  
             <div class="agreement">
                 <input type="checkbox" id="01" class="checkbox">
@@ -176,13 +180,14 @@
                     <p class="hp-p">Стаж работы у наших тренеров от 5 лет</p>
                 </div>
             </div>
+        </div>
     </div>
     <footer>
         <div class="footer">
-            <div class="header-item">
+            <div class="footer-item">
                 <a href="#" class="header-logo"></a>
                 <nav>
-                    <ul class="header-nav">
+                    <ul class="footer-nav">
                         <li><a href="#">Мероприятия</a></li>
                         <li><a href="#">Расписание</a></li>
                         <li><a href="#">О компании</a></li>
@@ -190,14 +195,39 @@
                 </nav>
             </div>
             <div class="footer-if">
-                <h6 class="footer-circle">info@freefit.com</h6>
+                <h4 class="footer-circle">info@freefit.com</h4>
                 <a href="#" class="header-inst"></a>
                 <a href="#" class="header-facebook"></a>
             </div>
-        </div>  
+        </div> 
+        <div class="footer-end">
+            <p>© 2020, Все права защищены</p>
+            <p>Сделано в рамках курса учебной платформы <u>Annblok</u></p>
+        </div> 
     </footer>
-
+    <div class="modal" id="modal">
+        <a href="#" class="header-logo-burger"></a>
+        <ul class="burger-nav">
+            <li><a href="#">Мероприятия</a></li>
+            <li><a href="#">Расписание</a></li>
+            <li><a href="#">О компании</a></li>
+        </ul>
+        <span class="header-if-burger">
+            <a href="#" class="header-inst-burger"></a>
+            <a href="#" class="header-facebook-burger"></a>
+        </span>
+        <button class="burger-close" onclick="closeModal()"></button>
+        <div class="background-bottom"></div>
+    </div>
     <script>
+        // Menu
+        function openModal() {
+            document.getElementById("modal").style.top = "0px";
+       }
+
+        function closeModal() {
+            document.getElementById("modal").style.top = "-600px";
+       }
     </script>
 </body>
 </html>
