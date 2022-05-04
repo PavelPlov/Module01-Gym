@@ -1009,8 +1009,8 @@ u:hover{
         width: 40px;  
     }
     .box-menu {
-        top: 10px;
-        right: -8px;
+        top: 9px;
+        right: 8px;
         gap: 13px;
     }
     .banner-main {
@@ -1073,10 +1073,10 @@ u:hover{
         gap: 20px;
     }
     .box-gradient {
-        display: none;
+        background: none;
     }
     .box-gradient:hover {
-        display: none;
+        background: none;
     }
     .box-data {
         font-size: 12px;
