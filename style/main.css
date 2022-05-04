@@ -1073,10 +1073,10 @@ u:hover{
         gap: 20px;
     }
     .box-gradient {
-        background: none;
+        
     }
     .box-gradient:hover {
-        background: none;
+       
     }
     .box-data {
         font-size: 12px;
