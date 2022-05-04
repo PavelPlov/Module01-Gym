@@ -1027,6 +1027,7 @@ u:hover{
     }
     .box-three-ipad {
         background-image: url(/images/ioga-ipad.png);
+        background-size: cover;
         width: 748px;
         height: 336px;
         position: relative;
@@ -1057,14 +1058,14 @@ u:hover{
         background-image: url(/images/box-one-ipad.png);
         width: 364px;
         height: 309px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .box-two {
         background-image: url(/images/box-two-ipad.png);
         width: 364px;
         height: 309px;
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
     }
     .box {
