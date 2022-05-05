@@ -830,7 +830,7 @@ u:hover{
 
 /* Modal */
 .burger {
-    background-image: url(/images/burgerone.svg);
+    background-image: url(../images/burgerone.svg);
     width: 29px;
     height: 22px;
     background-color: transparent;
@@ -883,7 +883,7 @@ u:hover{
 }
 .header-logo-burger {
     display: block;
-    background-image: url(/images/logo-burger.svg);
+    background-image: url(../images/logo-burger.svg);
     width: 78px;
     height: 27px;
     background-repeat: no-repeat;
@@ -917,7 +917,7 @@ u:hover{
 .burger-close {
     width: 20px;
     height: 19px;
-    background-image: url(/images/close.svg);
+    background-image: url(../images/close.svg);
     border: none;
     position: absolute;
     top: 46px;
@@ -1026,7 +1026,7 @@ u:hover{
         margin-bottom: 21px;
     }
     .box-three-ipad {
-        background-image: url(/images/ioga-ipad.png);
+        background-image: url(../images/ioga-ipad.png);
         background-size: cover;
         width: 748px;
         height: 336px;
@@ -1055,14 +1055,14 @@ u:hover{
         display: none;
     }
     .box-one {
-        background-image: url(/images/box-one-ipad.png);
+        background-image: url(../images/box-one-ipad.png);
         width: 364px;
         height: 309px;
         background-size: cover;
         background-repeat: no-repeat;
     }
     .box-two {
-        background-image: url(/images/box-two-ipad.png);
+        background-image: url(../images/box-two-ipad.png);
         width: 364px;
         height: 309px;
         background-size: cover;
