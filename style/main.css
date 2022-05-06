@@ -526,6 +526,9 @@ h2 {
     background: #F3F3F3;
     margin-bottom: 160px;
 }
+.subscription-items {
+    padding-left: 243px;
+}
 .h-circle {
     width: 655px;
     height: 49px;
@@ -1327,6 +1330,7 @@ u:hover{
     }
     .subscription-items {
         position: relative;
+        padding: 0;
     }
     .subscription {
         height: 416px;
