@@ -522,7 +522,6 @@ h2 {
     position: relative;
 }
 .subscription {
-    width: 100%;
     height: 348px;
     background: #F3F3F3;
     margin-bottom: 160px;
@@ -1073,10 +1072,10 @@ u:hover{
         gap: 20px;
     }
     .box-gradient {
-        
+        background: none;
     }
     .box-gradient:hover {
-       
+       background: none;
     }
     .box-data {
         font-size: 12px;
