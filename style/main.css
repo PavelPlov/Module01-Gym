@@ -699,6 +699,8 @@ h2 {
     position: absolute;
     top:0;
     right: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 .before-text {
     width: 473px;
@@ -1334,10 +1336,39 @@ u:hover{
     }
     .subscription {
         height: 416px;
+        margin-bottom: 90px;
     }
     .subscription-button {
         padding: 24px 105px;
         margin-left: -3px;
+    }
+    .trainer {
+        background-image: url(../images/trainer-ipad.png);
+        width: 372px;
+        height: 227px;
+        top: 3px;
+    }
+    .before-h {
+        font-size: 26px;
+    }
+    .before-text {
+        display: none;
+    }
+    .before-text-ipad {
+        width: 310px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 2px;
+        padding-top: 4px;
+        margin-bottom: 56px;
+    }
+    .before-footer {
+        max-width: 748px;
+        padding-left: 8px;
+        padding-right: 11px;
+    }
+    .before-button {
+        padding: 23px 46px;
     }
 }
 @media (min-width: 769px) {
@@ -1351,6 +1382,9 @@ u:hover{
         display: none;
     }
     .menu-grid-ipad {
+        display: none;
+    }
+    .before-text-ipad {
         display: none;
     }
     
