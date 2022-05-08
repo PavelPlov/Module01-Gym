@@ -757,7 +757,6 @@ h2 {
     white-space: nowrap;
 }
 footer {
-    width: 100%;
     height: 149px;
     background-color: #F3F3F3;      
 }
@@ -1358,7 +1357,7 @@ u:hover{
         width: 310px;
         font-size: 16px;
         line-height: 24px;
-        padding-left: 2px;
+        padding-left: 0;
         padding-top: 4px;
         margin-bottom: 56px;
     }
@@ -1369,6 +1368,104 @@ u:hover{
     }
     .before-button {
         padding: 23px 46px;
+    }
+    .flex-hp {
+        display: none;
+    }
+    .flex-hp-ipad-one {
+        display: flex;
+        gap: 161px;
+        margin-top: 65px;
+        margin-bottom: 11px;
+    }
+    .flex-hp-ipad-two {
+        display: flex;
+        gap: 172px;
+    }
+    .hp-h-ipad {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    .hp-p-ipad {
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 60%;
+    }
+    .flex-hp-ipad-one p {
+        width: 210px;
+    }
+    .flex-hp-ipad-two p {
+        width: 200px;
+    }
+    footer {
+        height: 280px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-if {
+        display: none;
+    }
+    .footer-if-ipad {
+        position: relative;
+    }
+    .footer-circle-ipad {
+        position: absolute;
+        font-size: 12px;
+        font-weight: 700;
+        z-index: 1;
+        top: 55px;
+        right: 112px;
+    }
+    .footer-inst-ipad {
+        background-image: url(../images/instmini.svg);
+        width: 26px;
+        height: 26px;
+        opacity: 0.8;
+        position: absolute;
+        right: 52px;
+        top: 64px;
+    }
+    .footer-facebook-ipad {
+        background-image: url(../images/fbmini.svg);
+        width: 26px;
+        height: 26px;
+        opacity: 0.7;
+        position: absolute;
+        right: 1px;
+        top: 64px;
+    }
+    .footer-circle-ipad::before {
+        content: "";
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        background: #FBF138;
+        box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+        border-radius: 50%;
+        position: absolute;
+        top: -8px;
+        left: -17px;
+        z-index: -1;
+    }
+    .before-footer-items {
+        margin-bottom: 80px;
+    }
+    .footer-nav {
+        font-size: 12px;
+        gap: 26px;
+        margin-left: 375px;
+    }
+    .footer-item {
+        flex-basis: 0;
+    }
+    .footer {
+        padding-top: 50px;
+    }
+    .footer-end {
+        margin-top: 100px;
+    }
+    .footer-end p {
+        font-size: 10px;
     }
 }
 @media (min-width: 769px) {
@@ -1385,6 +1482,15 @@ u:hover{
         display: none;
     }
     .before-text-ipad {
+        display: none;
+    }
+    .flex-hp-ipad-one {
+        display: none;
+    }
+    .flex-hp-ipad-two {
+        display: none;
+    }
+    .footer-if-ipad {
         display: none;
     }
     
