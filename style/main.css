@@ -929,6 +929,12 @@ u:hover{
 }
 /* Responsive */
 
+@media (max-width: 361px) {
+    .header-item {
+        flex-basis: 54.5%;
+    }
+}
+
 @media (max-width: 769px) {
     header {    
         max-width: 748px;
