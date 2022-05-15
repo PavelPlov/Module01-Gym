@@ -931,33 +931,125 @@ u:hover{
 
 @media (max-width: 361px) {
     .header-item {
-        flex-basis: 54.5%;
+        flex-basis: 65.5%;
     }
-}
-
-@media (max-width: 769px) {
+    .header-if {
+        gap: 20px;
+    }
     header {    
-        max-width: 748px;
+        max-width: 340px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header {
-        margin-top: 2px;
+    .box-menu {
+        top: 313px;
+        right: 8px;
+        gap: 13px;
+        margin-top: 69px;
+    }
+    .img-girl {
+        width: 340px;
+        height: 310px;
+        clip: rect(-6px 1092px 275px -1px);
+        top: 39px;
+        left: -2px;
+    }
+    .left-gradient {
+        width: 213px;
+        height: 315px;
+    }
+    .right-gradient {
+        width: 117px;
+        height: 315px;  
     }
     main {
-        max-width: 748px;
+        max-width: 340px;
         padding-left: 10px;
         padding-right: 10px;
     }
-    .header-nav {
+    .banner-link {
+        margin-left: 1px;
+        padding: 23px 73px;
+    }
+    .banner-text {
+        padding-left: 0;
+        font-size: 16px;
+        width: 255px;
+        height: 49px;
+        line-height: 24px;
+        margin-bottom: 61px;
+    }
+    .banner-main {
+        margin-bottom: 457px;
+    }
+    .botton-down {
         display: none;
     }
+    
+}
+
+@media (min-width: 361px) and (max-width: 769px) {
     .header-item {
         flex-basis: 29.5%;
     }
     .header-if {
         margin-right: 1px;
         gap: 20px;
+    }
+    header {    
+        max-width: 748px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box-menu {
+        top: 9px;
+        right: 8px;
+        gap: 13px;
+    }
+    .img-girl {
+        width: 399px;
+        height: 364px;
+        clip: rect(-6px 1092px 321px -1px);
+        top: 106px;
+        left: -46px;
+    }
+    .left-gradient {
+        width: 194px;
+        height: 429px;
+    }
+    .right-gradient {
+        width: 152px;
+        height: 429px;  
+    }
+    main {
+        max-width: 748px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-link {
+        margin-left: 0;
+    }
+    .banner-text {
+        padding-left: 0;
+        font-size: 16px;
+        width: 255px;
+        height: 49px;
+        line-height: 24px;
+        margin-bottom: 63px;
+    }
+    .banner-main {
+        margin-bottom: 110px;
+    }
+
+}
+
+
+@media (max-width: 769px) {
+    .header {
+        margin-top: 2px;
+    }
+    .header-nav {
+        display: none;
     }
     .header-logo {
         width: 78px;
@@ -985,44 +1077,10 @@ u:hover{
         font-size: 26px;
         margin-bottom: 16px;
     }
-    .banner-text {
-        padding-left: 0;
-        font-size: 16px;
-        width: 255px;
-        height: 49px;
-        line-height: 24px;
-        margin-bottom: 63px;
-    }
-    .banner-link {
-        margin-left: 0;
-    }
-    .left-gradient {
-        width: 194px;
-        height: 429px;
-    }
-    .right-gradient {
-        width: 152px;
-        height: 429px;  
-    }
-    .img-girl {
-        width: 399px;
-        height: 364px;
-        clip: rect(-6px 1092px 321px -1px);
-        top: 106px;
-        left: -46px;
-    }
     .botton-down {
         margin-top: 69px;
         height: 40px;
         width: 40px;  
-    }
-    .box-menu {
-        top: 9px;
-        right: 8px;
-        gap: 13px;
-    }
-    .banner-main {
-        margin-bottom: 110px;
     }
     article {
         max-width: 748px;
