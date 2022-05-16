@@ -848,7 +848,7 @@ u:hover{
     top: -600px;
     left: 0;
     right: 0;
-    margin: 20px auto 0;
+    margin: 0 auto;
     padding: 93px 10px 86px;
     padding-bottom: 20px;
     transition: .5s;
@@ -984,6 +984,51 @@ u:hover{
     }
     .botton-down {
         display: none;
+    }
+    .modal {
+        background-color: #F3F3F3;
+        max-width: 339px;
+        max-height: 231px;
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 49px 10px 86px;
+        padding-bottom: 20px;
+        transition: .5s;
+    }
+    .background-bottom {
+        background-color: #2B3541;
+        opacity: 0.4;
+        width: 360px;
+        height: 135px;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .header-logo-burger {
+        display: block;
+        background-image: url(../images/logo-burger.svg);
+        width: 78px;
+        height: 27px;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+        position: absolute;
+        top: 17px;
+        left: 10px;
+    }
+    .burger-close {
+        width: 20px;
+        height: 19px;
+        background-image: url(../images/close.svg);
+        border: none;
+        position: absolute;
+        top: 17px;
+        right: 11px;
+        cursor: pointer;
     }
     
 }
