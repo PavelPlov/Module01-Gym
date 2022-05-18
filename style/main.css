@@ -1214,17 +1214,20 @@ u:hover{
         line-height: 18px;
     }
     .subscription {
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 360px;
         height: 416px;
         margin-bottom: 90px;
     }
     .subscription-form {
-        padding-left: 10px;
+        padding-left: 0;
         padding-top: 26px;
     }
     .agreement {
         position: absolute;
-        bottom: 111px;
-        left: -261px;
+        bottom: 109px;
+        left: -269px;
     }
     .h-circle::before {
         top: 43px;
@@ -1237,19 +1240,19 @@ u:hover{
         height: 49px;
         font-size: 26px;
         font-weight: 700;
-        padding-left: 67px;
-        padding-top: 57px;
+        padding-left: 59px;
+        padding-top: 58px;
         position: relative;
         z-index: 1;
         margin-bottom: 39px;
         text-align: center;
     }
     .subscription-button {
-        padding: 24px 103px;
-        margin-left: -3px;
+        padding: 24px 100px;
+        margin-left: 0;
     }
     .subscription-input {
-        padding-right: 60px;
+        padding-right: 101px;
         padding-left: 23px;
         margin-bottom: 74px;
     }
