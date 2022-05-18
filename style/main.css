@@ -1248,6 +1248,11 @@ u:hover{
         padding: 24px 103px;
         margin-left: -3px;
     }
+    .subscription-input {
+        padding-right: 102px;
+        padding-left: 23px;
+        margin-bottom: 74px;
+    }
     
 }
 
@@ -1503,6 +1508,11 @@ u:hover{
     .menu-grid-phone {
         display: none;
     }
+    .subscription-input {
+        padding-right: 102px;
+        padding-left: 23px;
+        margin-bottom: 74px;
+    }
 
 }
 
@@ -1662,11 +1672,6 @@ u:hover{
     .menu-grid {
         display: none;
     }
-    .subscription-input {
-        padding-right: 102px;
-        padding-left: 23px;
-        margin-bottom: 74px;
-    }
     .subscription-items {
         position: relative;
         padding: 0;
@@ -1821,6 +1826,9 @@ u:hover{
         display: none;
     }
     .footer-if-ipad {
+        display: none;
+    }
+    .menu-grid-phone {
         display: none;
     }
     
