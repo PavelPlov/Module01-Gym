@@ -1030,6 +1030,224 @@ u:hover{
         right: 11px;
         cursor: pointer;
     }
+    .box-one {
+        background-image: url(../images/Img-phone-one.png);
+        width: 165px;
+        height: 310px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .box-two {
+        background-image: url(../images/img-phone-two.png);
+        width: 165px;
+        height: 309px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    .box-three-ipad {
+        background-image: url(../images/img-phone-three.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 340px;
+        height: 336px;
+        position: relative;
+        margin-bottom: 52px;
+    }
+    .box-type {
+        font-size: 12px;
+        left: 0;
+        width: 87px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: absolute;
+    }
+    .box {
+        margin-bottom: 0;
+        gap: 10px;
+    }
+    .menu-grid-ipad {
+        display: none;
+    }
+    .menu-grid-phone {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .grid-item-active-phone {
+        position: relative;
+        width: 340px;
+        height: 206px;
+    }
+    .grid-item-phone {
+        position: relative;
+        border: 1px solid #2B3541;
+        width: 340px;
+        height: 114px;
+    }
+    .grid-body-ipad {
+        width: 39px;
+        height: 39px;
+        padding-left: 17px;
+        padding-top: 13px;
+    }
+    .grid-bottle-ipad {
+        width: 23px;
+        height: 45px;
+        padding-left: 29px;
+        padding-top: 25px;
+    }
+    .grid-dumbbell-ipad {
+        width: 46px;
+        height: 25px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .grid-jump-ipad {
+        width: 34px;
+        height: 53px;
+        padding-left: 19px;
+        padding-top: 56px;
+    }
+    .grid-heart-ipad{
+        width: 39px;
+        height: 37px;
+        padding-left: 19px;
+        padding-top: 11px;
+    }
+    .grid-weight-ipad{
+        width: 35px;
+        height: 40px;
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+    .flex-text {
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 21px;
+        margin-top: 28px;
+    }
+    .flex-data {
+        font-size: 16px;
+        opacity: 70%;
+        margin-bottom: 19px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .schedule {
+        max-width: 360px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 62px;
+    }
+    .text-box-ipad {
+        width: 133px;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: #2B3541;
+        padding-left: 20px;
+    }
+    .text-body-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -29px;
+        font-size: 16px;
+    }
+    .text-bottle-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -37px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .text-dumbbell-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 75px;
+        margin-top: -25px;
+        font-size: 16px;
+    }
+    .text-jump-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 77px;
+        margin-top: -56px;
+        font-size: 16px;
+    }
+    .text-heart-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 76px;
+        margin-top: -32px;
+        font-size: 16px;
+    }
+    .text-weight-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -33px;
+        font-size: 16px;
+    }
+    .grid-data-ipad{
+        margin: 0;
+        padding-left: 202px;
+        padding-top: 22px;
+        font-size: 16px;
+    }
+    .text-active-ipad {
+        width: 228px;
+        height: 54px;
+        margin: 0;
+        padding-left: 77px;
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .subscription {
+        height: 416px;
+        margin-bottom: 90px;
+    }
+    .subscription-form {
+        padding-left: 10px;
+        padding-top: 26px;
+    }
+    .agreement {
+        position: absolute;
+        bottom: 111px;
+        left: -261px;
+    }
+    .h-circle::before {
+        top: 43px;
+        left: 63px;
+        width: 31px;
+        height: 31px;
+    }
+    .h-circle {
+        width: 226px;
+        height: 49px;
+        font-size: 26px;
+        font-weight: 700;
+        padding-left: 67px;
+        padding-top: 57px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .subscription-button {
+        padding: 24px 103px;
+        margin-left: -3px;
+    }
     
 }
 
@@ -1085,6 +1303,206 @@ u:hover{
     .banner-main {
         margin-bottom: 110px;
     }
+    .box-one {
+        background-image: url(../images/box-one-ipad.png);
+        width: 364px;
+        height: 309px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-two {
+        background-image: url(../images/box-two-ipad.png);
+        width: 364px;
+        height: 309px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-three-ipad {
+        background-image: url(../images/ioga-ipad.png);
+        background-size: cover;
+        width: 748px;
+        height: 336px;
+        position: relative;
+        margin-bottom: 52px;
+    }
+    .box-type {
+        font-size: 12px;
+        right: 277px;
+        width: 87px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+    .box {
+        margin-bottom: 0;
+        gap: 20px;
+    }
+    .menu-grid-ipad {
+        display: grid;
+        grid-template-columns: 364px 364px;
+        grid-template-rows: 333px 224px 224px;
+        gap: 20px;
+    }
+    .grid-body-ipad {
+        width: 65px;
+        height: 65px;
+        padding-left: 22px;
+        padding-top: 152px;
+    }
+    .grid-bottle-ipad {
+        width: 42px;
+        height: 85px;
+        padding-left: 29px;
+        padding-top: 25px;
+    }
+    .grid-dumbbell-ipad {
+        width: 91px;
+        height: 50px;
+        padding-left: 26px;
+        padding-top: 65px;
+    }
+    .grid-jump-ipad {
+        width: 67px;
+        height: 107px;
+        padding-left: 24px;
+        padding-top: 32px;
+    }
+    .grid-heart-ipad{
+        width: 65px;
+        height: 61px;
+        padding-left: 26px;
+        padding-top: 48px;
+    }
+    .grid-weight-ipad{
+        width: 58px;
+        height: 66px;
+        padding-left: 26px;
+        padding-top: 49px;
+    }
+    .flex-text {
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 21px;
+    }
+    .flex-data {
+        font-size: 16px;
+        opacity: 70%;
+        margin-bottom: 19px;
+        margin-right: 1px;
+    }
+    .schedule {
+        max-width: 748px;
+        padding-left: 9px;
+        padding-right: 11px;
+        margin-bottom: 94px;
+    }
+    .text-box-ipad {
+        font-size: 16px;
+        line-height: 19.2px;
+        color: #2B3541;
+        padding-left: 20px;
+    }
+    .text-body-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 22px;
+        margin-top: 33px;
+        font-size: 16px;
+    }
+    .text-bottle-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 26px;
+        margin-top: 29px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .text-dumbbell-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 28px;
+        margin-top: 27px;
+        font-size: 16px;
+    }
+    .text-jump-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 23px;
+        margin-top: 35px;
+        font-size: 16px;
+    }
+    .text-heart-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 26px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .text-weight-ipad {
+        width: 272px;
+        height: 27px;
+        margin: 0;
+        padding-left: 29px;
+        margin-top: 30px;
+        font-size: 16px;
+    }
+    .grid-data-ipad{
+        margin: 0;
+        padding-left: 221px;
+        padding-top: 22px;
+        font-size: 16px;
+    }
+    .text-active-ipad {
+        width: 228px;
+        height: 54px;
+        margin: 0;
+        padding-left: 24px;
+        margin-top: 13px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .subscription {
+        height: 416px;
+        margin-bottom: 90px;
+    }
+    .subscription-form {
+        padding-left: 214px;
+    }
+    .agreement {
+        position: absolute;
+        bottom: 102px;
+        left: -58px;
+    }
+    .h-circle {
+        font-size: 26px;
+        width: 201px;
+        height: 64px;
+        line-height: 32px;
+        text-align: center;
+        padding-left: 283px;
+        padding-top: 56px;
+        margin-bottom: 50px;
+    }
+    .h-circle::before {
+        top: 41px;
+        left: 270px;
+        width: 31px;
+        height: 31px;
+    }
+    .subscription-button {
+        padding: 24px 105px;
+        margin-left: -3px;
+    }
+    .menu-grid-phone {
+        display: none;
+    }
 
 }
 
@@ -1137,14 +1555,6 @@ u:hover{
         margin-left: -2px;
         margin-bottom: 21px;
     }
-    .box-three-ipad {
-        background-image: url(../images/ioga-ipad.png);
-        background-size: cover;
-        width: 748px;
-        height: 336px;
-        position: relative;
-        margin-bottom: 52px;
-    }
     .box-button-ipad {
         background-color: #2B3541;
         color: #FBF138;
@@ -1166,24 +1576,6 @@ u:hover{
     .box-three {
         display: none;
     }
-    .box-one {
-        background-image: url(../images/box-one-ipad.png);
-        width: 364px;
-        height: 309px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .box-two {
-        background-image: url(../images/box-two-ipad.png);
-        width: 364px;
-        height: 309px;
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-    .box {
-        margin-bottom: 0;
-        gap: 20px;
-    }
     .box-gradient {
         background: none;
     }
@@ -1203,16 +1595,6 @@ u:hover{
         padding-left: 23px;
         padding-top: 5px;
     }
-    .box-type {
-        font-size: 12px;
-        right: 277px;
-        width: 87px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-    }
     .box-button {
         display: none;
     }
@@ -1221,12 +1603,6 @@ u:hover{
         color: #2B3541;
         font-weight: 700;
         padding-top: 17px;
-        padding-left: 20px;
-    }
-    .text-box-ipad {
-        font-size: 16px;
-        line-height: 19.2px;
-        color: #2B3541;
         padding-left: 20px;
     }
     .box-type-ipad {
@@ -1243,23 +1619,6 @@ u:hover{
         justify-content: center;
         align-items: center;
     }
-    .flex-text {
-        font-size: 26px;
-        line-height: 31px;
-        margin-bottom: 44px;
-    }
-    .flex-data {
-        font-size: 16px;
-        opacity: 70%;
-        margin-bottom: 39px;
-        margin-right: 1px;
-    }
-    .schedule {
-        max-width: 748px;
-        padding-left: 9px;
-        padding-right: 11px;
-        margin-bottom: 94px;
-    }
     .grid-item-ipad {
         border: 1px solid #2B3541;
         position: relative;
@@ -1267,12 +1626,6 @@ u:hover{
     .grid-item-active-ipad {
         border: none;
         position: relative;
-    }
-    .menu-grid-ipad {
-        display: grid;
-        grid-template-columns: 364px 364px;
-        grid-template-rows: 333px 224px 224px;
-        gap: 20px;
     }
     .grid-item-ipad:nth-child(1) {
         grid-column: 1/2;
@@ -1298,97 +1651,6 @@ u:hover{
         grid-column: 2/3;
         grid-row: 3/4;
     }
-    .grid-body-ipad {
-        width: 65px;
-        height: 65px;
-        padding-left: 22px;
-        padding-top: 152px;
-    }
-    .grid-bottle-ipad {
-        width: 42px;
-        height: 85px;
-        padding-left: 29px;
-        padding-top: 25px;
-    }
-    .grid-dumbbell-ipad {
-        width: 91px;
-        height: 50px;
-        padding-left: 26px;
-        padding-top: 65px;
-    }
-    .grid-jump-ipad {
-        width: 67px;
-        height: 107px;
-        padding-left: 24px;
-        padding-top: 32px;
-    }
-    .grid-heart-ipad{
-        width: 65px;
-        height: 61px;
-        padding-left: 26px;
-        padding-top: 48px;
-    }
-    .grid-weight-ipad{
-        width: 58px;
-        height: 66px;
-        padding-left: 26px;
-        padding-top: 49px;
-    }
-    .grid-data-ipad{
-        margin: 0;
-        padding-left: 221px;
-        padding-top: 22px;
-        font-size: 16px;
-    }
-    .text-body-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 22px;
-        margin-top: 33px;
-        font-size: 16px;
-    }
-    .text-bottle-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 26px;
-        margin-top: 29px;
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
-    .text-dumbbell-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 28px;
-        margin-top: 27px;
-        font-size: 16px;
-    }
-    .text-jump-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 23px;
-        margin-top: 35px;
-        font-size: 16px;
-    }
-    .text-heart-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 26px;
-        margin-top: 30px;
-        font-size: 16px;
-    }
-    .text-weight-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 29px;
-        margin-top: 30px;
-        font-size: 16px;
-    }
     .active-ipad {
         background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
         box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
@@ -1397,58 +1659,17 @@ u:hover{
         width: 100%;
         height: 100%;
     }
-    .text-active-ipad {
-        width: 228px;
-        height: 54px;
-        margin: 0;
-        padding-left: 24px;
-        margin-top: 13px;
-        font-size: 12px;
-        line-height: 18px;
-    }
     .menu-grid {
         display: none;
-    }
-    .h-circle {
-        font-size: 26px;
-        width: 201px;
-        height: 64px;
-        line-height: 32px;
-        text-align: center;
-        padding-left: 283px;
-        padding-top: 56px;
-        margin-bottom: 50px;
-    }
-    .h-circle::before {
-        top: 41px;
-        left: 270px;
-        width: 31px;
-        height: 31px;
-    }
-    .subscription-form {
-        padding-left: 214px;
     }
     .subscription-input {
         padding-right: 102px;
         padding-left: 23px;
         margin-bottom: 74px;
     }
-    .agreement {
-        position: absolute;
-        bottom: 110px;
-        left: -58px;
-    }
     .subscription-items {
         position: relative;
         padding: 0;
-    }
-    .subscription {
-        height: 416px;
-        margin-bottom: 90px;
-    }
-    .subscription-button {
-        padding: 24px 105px;
-        margin-left: -3px;
     }
     .trainer {
         background-image: url(../images/trainer-ipad.png);
