@@ -1216,7 +1216,7 @@ u:hover{
     .subscription {
         padding-left: 10px;
         padding-right: 10px;
-        width: 360px;
+        width: 340px;
         height: 416px;
         margin-bottom: 90px;
     }
@@ -1252,7 +1252,7 @@ u:hover{
         margin-left: 0;
     }
     .subscription-input {
-        padding-right: 101px;
+        padding-right: 90px;
         padding-left: 23px;
         margin-bottom: 74px;
     }
