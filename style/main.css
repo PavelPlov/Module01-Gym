@@ -4,6 +4,8 @@ body {
 header {    
     max-width: 1141px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .header {
     display: flex;
@@ -86,6 +88,8 @@ header {
 }
 main {
     max-width: 1141px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     position: relative;
 }
@@ -179,6 +183,8 @@ main {
 }
 article {
     max-width: 1141px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto
 }
 h2 {
@@ -267,6 +273,8 @@ h2 {
     max-width: 1141px;
     margin: 0 auto;
     margin-bottom: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .flex-schedule {
     display: flex;
@@ -527,7 +535,10 @@ h2 {
     margin-bottom: 160px;
 }
 .subscription-items {
-    padding-left: 243px;
+    max-width: 1141px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .h-circle {
     width: 655px;
@@ -679,7 +690,10 @@ h2 {
    border-radius: 100%;
 }
 .before-footer {
-    position: absolute;
+    max-width: 1141px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .before-footer-items {
@@ -765,6 +779,8 @@ footer {
 }
 .footer {
     max-width: 1141px;
+    padding-left: 15px;
+    padding-right: 15px;
     margin: 0 auto;
     display: flex;
     align-items: center;
