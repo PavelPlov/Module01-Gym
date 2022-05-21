@@ -947,6 +947,28 @@ u:hover{
     cursor: pointer;
 }
 /* Responsive */
+@media (max-width: 1520px) {
+    .box-menu {
+        top: -19px;
+        right: 54px;
+    }
+    .left-gradient {
+        width: 442px;
+        height: 750px;
+    }
+    .right-gradient {
+        width: 235px;
+        height: 750px;   
+    }
+    .img-girl {
+        width: 710px;
+        height: 711px;
+        left: -28px;
+        right: 0;
+        top: 136px; 
+    }
+
+}
 
 @media (max-width: 361px) {
     .header-item {
@@ -1345,8 +1367,8 @@ u:hover{
     }
     .footer-nav {
         font-size: 12px;
-        gap: 40px;
-        margin-left: -15px;
+        gap: 45px;
+        margin-left: -4px;
         margin-top: 80px;
     }
     .header-logo {
