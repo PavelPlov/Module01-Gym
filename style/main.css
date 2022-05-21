@@ -1383,6 +1383,14 @@ u:hover{
         width: 78px;
         height: 24px;
     }
+    .text-box {
+        font-size: 16px;
+        line-height: 19.2px;
+        width: 140px;
+        height: 38px;
+        padding-left: 23px;
+        padding-top: 5px;
+    }
     
 }
 
@@ -1722,6 +1730,14 @@ u:hover{
     .footer-end {
         margin-top: 100px;
     }
+    .text-box {
+        font-size: 16px;
+        line-height: 19.2px;
+        width: 182px;
+        height: 38px;
+        padding-left: 23px;
+        padding-top: 5px;
+    }
 
 }
 
@@ -1800,14 +1816,6 @@ u:hover{
     .box-data {
         font-size: 12px;
         padding-left: 25px;
-        padding-top: 5px;
-    }
-    .text-box {
-        font-size: 16px;
-        line-height: 19.2px;
-        width: 182px;
-        height: 38px;
-        padding-left: 23px;
         padding-top: 5px;
     }
     .box-button {
