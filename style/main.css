@@ -203,19 +203,28 @@ h2 {
     background-image: url(../images/Image1.png);
     width: 367px;
     height: 600px;
-    position: relative;  
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;  
 }
 .box-two {
     background-image: url(../images/Image2.png);
     width: 367px;
     height: 600px;
-    position: relative;    
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;    
 }
 .box-three {
     background-image: url(../images/Image3.png);
     width: 367px;
     height: 600px;
-    position: relative;    
+    position: relative;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;    
 }
 .box-data {
     font-size: 18px;
@@ -716,7 +725,7 @@ h2 {
     position: absolute;
     top:0;
     right: 0;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .before-text {
@@ -858,6 +867,7 @@ u:hover{
     background-color: transparent;
     border: none;
     cursor: pointer;
+    margin-left: 50px;
 }
 .modal {
     background-color: #F3F3F3;
@@ -969,463 +979,18 @@ u:hover{
     }
 
 }
-
-@media (max-width: 361px) {
-    .header-item {
-        flex-basis: 65.5%;
-    }
-    .header-if {
-        gap: 20px;
-    }
-    header {    
-        max-width: 340px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .box-menu {
-        top: 313px;
-        right: 8px;
-        gap: 13px;
-        margin-top: 69px;
-    }
-    .img-girl {
-        width: 340px;
-        height: 310px;
-        clip: rect(-6px 1092px 275px -1px);
-        top: 39px;
-        left: -2px;
-    }
-    .left-gradient {
-        width: 213px;
-        height: 315px;
-    }
-    .right-gradient {
-        width: 117px;
-        height: 315px;  
-    }
-    main {
-        max-width: 340px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .banner-link {
-        margin-left: 1px;
-        padding: 23px 73px;
-    }
-    .banner-text {
-        padding-left: 0;
-        font-size: 16px;
-        width: 255px;
-        height: 49px;
-        line-height: 24px;
-        margin-bottom: 61px;
-    }
-    .banner-main {
-        margin-bottom: 457px;
-    }
-    .botton-down {
-        display: none;
-    }
-    .modal {
-        background-color: #F3F3F3;
-        max-width: 340px;
-        max-height: 231px;
-        position: absolute;
-        top: -600px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-        padding: 49px 10px 86px;
-        padding-bottom: 20px;
-        transition: .5s;
-    }
-    .background-bottom {
-        background-color: #2B3541;
-        opacity: 0.4;
-        width: 360px;
-        height: 135px;
-        position: absolute;
-        top: 300px;
-        left: 0;
-        right: 0;
-        margin: 0 auto;
-    }
-    .header-logo-burger {
-        display: block;
-        background-image: url(../images/logo-burger.svg);
-        width: 78px;
-        height: 27px;
-        background-repeat: no-repeat;
-        margin-bottom: 5px;
-        position: absolute;
-        top: 17px;
-        left: 10px;
-    }
-    .burger-close {
-        width: 20px;
-        height: 19px;
-        background-image: url(../images/close.svg);
-        border: none;
-        position: absolute;
-        top: 17px;
-        right: 11px;
-        cursor: pointer;
-    }
-    .box-one {
-        background-image: url(../images/Img-phone-one.png);
-        width: 165px;
-        height: 310px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .box-two {
-        background-image: url(../images/img-phone-two.png);
-        width: 165px;
-        height: 309px;
-        background-size: contain;
-        background-repeat: no-repeat;
-    }
-    .box-three-ipad {
-        background-image: url(../images/img-phone-three.png);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 340px;
-        height: 336px;
-        position: relative;
-        margin-bottom: 52px;
-    }
-    .box-type {
-        font-size: 12px;
-        left: 0;
-        width: 87px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        position: absolute;
+@media (max-width: 1280px) {
+    .hp-p {
+        width: 240px;
     }
     .box {
-        margin-bottom: 0;
-        gap: 10px;
+        gap: 35px;   
     }
-    .menu-grid-ipad {
-        display: none;
-    }
-    .menu-grid-phone {
-        display: flex;
-        flex-direction: column;
-        gap: 20px;
-    }
-    .grid-item-active-phone {
-        position: relative;
-        width: 340px;
-        height: 206px;
-    }
-    .grid-item-phone {
-        position: relative;
-        border: 1px solid #2B3541;
-        width: 340px;
-        height: 114px;
-    }
-    .grid-body-ipad {
-        width: 39px;
-        height: 39px;
-        padding-left: 17px;
-        padding-top: 13px;
-    }
-    .grid-bottle-ipad {
-        width: 23px;
-        height: 45px;
-        padding-left: 29px;
-        padding-top: 25px;
-    }
-    .grid-dumbbell-ipad {
-        width: 46px;
-        height: 25px;
-        padding-left: 20px;
-        padding-top: 15px;
-    }
-    .grid-jump-ipad {
-        width: 34px;
-        height: 53px;
-        padding-left: 19px;
-        padding-top: 56px;
-    }
-    .grid-heart-ipad{
-        width: 39px;
-        height: 37px;
-        padding-left: 19px;
-        padding-top: 11px;
-    }
-    .grid-weight-ipad{
-        width: 35px;
-        height: 40px;
-        padding-left: 20px;
-        padding-top: 0px;
-    }
-    .flex-text {
-        font-size: 26px;
-        line-height: 31px;
-        margin-bottom: 21px;
-        margin-top: 28px;
-    }
-    .flex-data {
-        font-size: 16px;
-        opacity: 70%;
-        margin-bottom: 19px;
-        margin-right: 0;
-        margin-top: 0;
-    }
-    .schedule {
-        max-width: 360px;
-        padding-left: 10px;
-        padding-right: 10px;
-        margin-bottom: 62px;
-    }
-    .text-box-ipad {
-        width: 133px;
-        font-size: 16px;
-        line-height: 19.2px;
-        color: #2B3541;
-        padding-left: 20px;
-    }
-    .text-body-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 74px;
-        margin-top: -29px;
-        font-size: 16px;
-    }
-    .text-bottle-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 74px;
-        margin-top: -37px;
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
-    .text-dumbbell-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 75px;
-        margin-top: -25px;
-        font-size: 16px;
-    }
-    .text-jump-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 77px;
-        margin-top: -56px;
-        font-size: 16px;
-    }
-    .text-heart-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 76px;
-        margin-top: -32px;
-        font-size: 16px;
-    }
-    .text-weight-ipad {
-        width: 272px;
-        height: 27px;
-        margin: 0;
-        padding-left: 74px;
-        margin-top: -33px;
-        font-size: 16px;
-    }
-    .grid-data-ipad{
-        margin: 0;
-        padding-left: 202px;
-        padding-top: 22px;
-        font-size: 16px;
-    }
-    .text-active-ipad {
-        width: 228px;
-        height: 54px;
-        margin: 0;
-        padding-left: 77px;
-        margin-top: 7px;
-        font-size: 12px;
-        line-height: 18px;
-    }
-    .subscription {
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 340px;
-        height: 416px;
-        margin-bottom: 50px;
-    }
-    .subscription-form {
-        padding-left: 0;
-        padding-top: 26px;
-    }
-    .agreement {
-        position: absolute;
-        bottom: 109px;
-        left: -269px;
-    }
-    .h-circle::before {
-        top: 43px;
-        left: 63px;
-        width: 31px;
-        height: 31px;
-    }
-    .h-circle {
-        width: 226px;
-        height: 49px;
-        font-size: 26px;
-        font-weight: 700;
-        padding-left: 59px;
-        padding-top: 58px;
-        position: relative;
-        z-index: 1;
-        margin-bottom: 39px;
-        text-align: center;
-    }
-    .subscription-button {
-        padding: 24px 100px;
-        margin-left: 0;
-    }
-    .subscription-input {
-        padding-right: 65px;
-        padding-left: 23px;
-        margin-bottom: 74px;
-    }
-    .trainer {
-        background-image: url(../images/trainer-ipad.png);
-        width: 340px;
-        height: 207px;
-        top: 804px;
-        left: 0;
-    }
-    .before-button {
-        position: absolute;
-        top: 698px;
-        padding: 22px 109px;
-    }
-    footer {
-        width: 100%;
-        height: 280px;
-        margin-top: 385px;
-    }
-    .flex-hp-ipad-one {
-        gap: 161px;
-        margin-top: 23px;
-        margin-bottom: 42px;
-    }
-    .flex-hp-ipad-two {
-        gap: 172px;
-    }
-    .before-text-ipad {
-        width: 310px;
-        font-size: 16px;
-        line-height: 24px;
-        padding-left: 0;
-        padding-top: 4px;
-        margin-bottom: 35px;
-    }
-    .flex-phone-one {
-        margin-bottom: 37px;
-    }
-    .hp-flex-phone {
-        margin-bottom: 38px;
-    }
-    .footer-if-ipad {
-        position: relative;
-    }
-    .footer-circle-ipad {
-        position: absolute;
-        font-size: 12px;
-        font-weight: 700;
-        z-index: 1;
-        top: 56px;
-        right: 224px;
-    }
-    .footer-inst-ipad {
-        background-image: url(../images/instmini.svg);
-        width: 26px;
-        height: 26px;
-        opacity: 0.8;
-        position: absolute;
-        right: 50px;
-        top: 66px;
-    }
-    .footer-facebook-ipad {
-        background-image: url(../images/fbmini.svg);
-        width: 26px;
-        height: 26px;
-        opacity: 0.7;
-        position: absolute;
-        right: 2px;
-        top: 65px;
-    }
-    .footer-nav {
-        font-size: 12px;
-        gap: 45px;
-        margin-left: -4px;
-        margin-top: 80px;
-    }
-    .header-logo {
-        display: none;
-    }
-    .header-logo-phone {
-        display: block;
-        background-image: url(../images/logo.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 97px;
-        height: 30px;
-        position: absolute;
-        top: 47px;
-        left: 123px;
-    }
-    .footer {
-        position: relative;
-        width: 340px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .footer-end {
-        display: block;
-        max-width: 340px;
-        margin-top: 80px;
-        text-align: center;
-    }
-    .phone-logo {
-        display: block;
-        background-image: url(../images/logo.svg);
-        background-size: contain;
-        background-repeat: no-repeat;
-        width: 78px;
-        height: 24px;
-    }
-    .text-box {
-        font-size: 16px;
-        line-height: 19.2px;
-        width: 140px;
-        height: 38px;
-        padding-left: 23px;
-        padding-top: 5px;
-    }
-    .banner h1 {
-        font-size: 26px;
-        line-height: 32.5px;
-        width: 343px;
-        height: 70px;
-        padding-top: 33px;
-    }
-    
 }
 
-@media (min-width: 361px) and (max-width: 769px) {
+@media (max-width: 1100px) {
     .header-item {
-        flex-basis: 29.5%;
+        flex-basis: auto;
     }
     .header-if {
         margin-right: 1px;
@@ -1499,7 +1064,7 @@ u:hover{
     }
     .box-type {
         font-size: 12px;
-        right: 277px;
+        left: 0;
         width: 87px;
         height: 30px;
         display: flex;
@@ -1643,6 +1208,7 @@ u:hover{
     .subscription {
         height: 416px;
         margin-bottom: 90px;
+        position: relative;
     }
     .subscription-form {
         padding-left: 214px;
@@ -1669,6 +1235,7 @@ u:hover{
         height: 31px;
     }
     .subscription-button {
+        display: block;
         padding: 24px 105px;
         margin-left: -3px;
     }
@@ -1744,7 +1311,6 @@ u:hover{
     .footer-nav {
         font-size: 12px;
         gap: 26px;
-        margin-left: 375px;
     }
     .header-logo-phone {
         display: none;
@@ -1774,11 +1340,6 @@ u:hover{
         height: 70px;
         padding-top: 33px;
     }
-
-}
-
-
-@media (max-width: 769px) {
     .header {
         margin-top: 2px;
     }
@@ -1916,7 +1477,11 @@ u:hover{
     }
     .subscription-items {
         position: relative;
+        top: 41%;
         padding: 0;
+        position: absolute;
+        left: 35%;
+        transform: translate(-50%, -50%);
     }
     .before-h {
         font-size: 26px;
@@ -1967,13 +1532,771 @@ u:hover{
         margin-bottom: 80px;
     }
     .footer-item {
-        flex-basis: 0;
+        flex-basis: 100%;
     }
     .footer-end p {
         font-size: 10px;
     }
 }
-@media (min-width: 769px) {
+
+@media (max-width: 760px) {
+    .box-three-ipad {
+        width: 100%;
+        background-position: center center;  
+    }
+    .menu-grid-ipad {
+        display: none;
+    }
+    .menu-grid-phone {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .grid-item-active-phone {
+        position: relative;
+        width: 100%;
+        height: 206px;
+    }
+    .grid-item-phone {
+        position: relative;
+        border: 1px solid #2B3541;
+        width: 100%;
+        height: 114px;
+    }
+    .grid-body-ipad {
+        width: 39px;
+        height: 39px;
+        padding-left: 17px;
+        padding-top: 13px;
+    }
+    .grid-bottle-ipad {
+        width: 23px;
+        height: 45px;
+        padding-left: 29px;
+        padding-top: 25px;
+    }
+    .grid-dumbbell-ipad {
+        width: 46px;
+        height: 25px;
+        padding-left: 20px;
+        padding-top: 15px;
+    }
+    .grid-jump-ipad {
+        width: 34px;
+        height: 53px;
+        padding-left: 19px;
+        padding-top: 56px;
+    }
+    .grid-heart-ipad{
+        width: 39px;
+        height: 37px;
+        padding-left: 19px;
+        padding-top: 11px;
+    }
+    .grid-weight-ipad{
+        width: 35px;
+        height: 40px;
+        padding-left: 20px;
+        padding-top: 0px;
+    }
+    .flex-text {
+        font-size: 26px;
+        line-height: 31px;
+        margin-bottom: 21px;
+        margin-top: 28px;
+    }
+    .flex-data {
+        font-size: 16px;
+        opacity: 70%;
+        margin-bottom: 19px;
+        margin-right: 0;
+        margin-top: 0;
+    }
+    .schedule {
+        max-width: 360px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-bottom: 62px;
+    }
+    .text-box-ipad {
+        width: 133px;
+        font-size: 16px;
+        line-height: 19.2px;
+        color: #2B3541;
+        padding-left: 20px;
+    }
+    .text-body-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -29px;
+        font-size: 16px;
+    }
+    .text-bottle-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -37px;
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+    .text-dumbbell-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 75px;
+        margin-top: -25px;
+        font-size: 16px;
+    }
+    .text-jump-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 77px;
+        margin-top: -56px;
+        font-size: 16px;
+    }
+    .text-heart-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 76px;
+        margin-top: -32px;
+        font-size: 16px;
+    }
+    .text-weight-ipad {
+        width: 200px;
+        height: 27px;
+        margin: 0;
+        padding-left: 74px;
+        margin-top: -33px;
+        font-size: 16px;
+    }
+    .grid-data-ipad{
+        margin: 0;
+        padding-left: 202px;
+        padding-top: 22px;
+        font-size: 16px;
+    }
+    .text-active-ipad {
+        width: 200px;
+        height: 54px;
+        margin: 0;
+        padding-left: 77px;
+        margin-top: 7px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .trainer {
+        width: 293px;
+        height: 203px;
+        top: 14px;
+        right: 13px;
+    }
+    footer {
+        height: 238px;
+    }
+
+}
+@media (max-width: 650px) {
+    .flex-hp-ipad-one {
+        display: flex;
+        gap: 75px;
+        margin-top: 65px;
+        margin-bottom: 11px;
+    }
+    .flex-hp-ipad-two {
+        display: flex;
+        gap: 84px;
+    }
+    .trainer {
+        width: 252px;
+        top: 52px;
+        right: 6px;
+    }
+    .subscription-items {
+        left: 32%;  
+    }
+}
+
+
+@media (max-width: 600px) {
+    article {
+        max-width: 340px;
+        padding-left: 10px;
+        padding-right: 10px;
+        justify-content: center;
+    }
+    .header-item {
+        flex-basis: 65.5%;
+    }
+    .header-if {
+        gap: 20px;
+    }
+    header {    
+        max-width: 340px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .box-menu {
+        top: 313px;
+        right: 8px;
+        gap: 13px;
+        margin-top: 69px;
+    }
+    .img-girl {
+        width: 340px;
+        height: 310px;
+        clip: rect(-6px 1092px 275px -1px);
+        top: 39px;
+        left: -2px;
+    }
+    .left-gradient {
+        width: 213px;
+        height: 315px;
+    }
+    .right-gradient {
+        width: 117px;
+        height: 315px;  
+    }
+    main {
+        max-width: 340px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .banner-link {
+        margin-left: 1px;
+        padding: 23px 52px;
+    }
+    .banner-text {
+        padding-left: 0;
+        font-size: 16px;
+        width: 255px;
+        height: 49px;
+        line-height: 24px;
+        margin-bottom: 61px;
+    }
+    .banner-main {
+        margin-bottom: 457px;
+    }
+    .botton-down {
+        display: none;
+    }
+    .modal {
+        background-color: #F3F3F3;
+        max-width: 340px;
+        max-height: 231px;
+        position: absolute;
+        top: -600px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        padding: 49px 10px 86px;
+        padding-bottom: 20px;
+        transition: .5s;
+    }
+    .background-bottom {
+        background-color: #2B3541;
+        opacity: 0.4;
+        width: 360px;
+        height: 135px;
+        position: absolute;
+        top: 300px;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    .header-logo-burger {
+        display: block;
+        background-image: url(../images/logo-burger.svg);
+        width: 78px;
+        height: 27px;
+        background-repeat: no-repeat;
+        margin-bottom: 5px;
+        position: absolute;
+        top: 17px;
+        left: 10px;
+    }
+    .burger-close {
+        width: 20px;
+        height: 19px;
+        background-image: url(../images/close.svg);
+        border: none;
+        position: absolute;
+        top: 17px;
+        right: 11px;
+        cursor: pointer;
+    }
+    .box-one {
+        background-image: url(../images/Img-phone-one.png);
+        width: 165px;
+        height: 310px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-two {
+        background-image: url(../images/img-phone-two.png);
+        width: 165px;
+        height: 309px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .box-three-ipad {
+        background-image: url(../images/img-phone-three.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 336px;
+        position: relative;
+        margin-bottom: 52px;
+    }
+    .box-type {
+        font-size: 12px;
+        left: 0;
+        width: 87px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        position: absolute;
+    }
+    .box {
+        margin-bottom: 0;
+        gap: 10px;
+        justify-content: center;
+    }
+    
+    .subscription {
+        padding-left: 10px;
+        padding-right: 10px;
+        height: 416px;
+        margin-bottom: 50px;
+    }
+    .subscription-form {
+        padding-left: 0;
+        padding-top: 26px;
+    }
+    .agreement {
+        position: absolute;
+        bottom: 109px;
+        left: -269px;
+    }
+    .h-circle::before {
+        top: 43px;
+        left: 63px;
+        width: 31px;
+        height: 31px;
+    }
+    .h-circle {
+        width: 226px;
+        height: 49px;
+        font-size: 26px;
+        font-weight: 700;
+        padding-left: 59px;
+        padding-top: 58px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 39px;
+        text-align: center;
+    }
+    .subscription-button {
+        padding: 24px 100px;
+        margin-left: 0;
+    }
+    .subscription-input {
+        padding-right: 65px;
+        padding-left: 23px;
+        margin-bottom: 74px;
+    }
+    .trainer {
+        background-image: url(../images/trainer-ipad.png);
+        width: 340px;
+        height: 207px;
+        top: 804px;
+        left: 0;
+    }
+    .before-button {
+        position: absolute;
+        top: 698px;
+        padding: 22px 109px;
+    }
+    footer {
+        height: 280px;
+        margin-top: 385px;
+    }
+    .flex-hp-ipad-one {
+        margin-top: 23px;
+        margin-bottom: 42px;
+        display: block;
+    }
+    .flex-hp-ipad-two {
+        display: block;
+    }
+    .before-text-ipad {
+        width: 310px;
+        font-size: 16px;
+        line-height: 24px;
+        padding-left: 0;
+        padding-top: 4px;
+        margin-bottom: 35px;
+    }
+    .flex-phone-one {
+        margin-bottom: 37px;
+    }
+    .hp-flex-phone {
+        margin-bottom: 38px;
+    }
+    .footer-circle-ipad {
+        position: absolute;
+        font-size: 12px;
+        font-weight: 700;
+        z-index: 1;
+        top: 56px;
+        right: 224px;
+    }
+    .footer-inst-ipad {
+        background-image: url(../images/instmini.svg);
+        width: 26px;
+        height: 26px;
+        opacity: 0.8;
+        position: absolute;
+        right: 50px;
+        top: 66px;
+    }
+    .footer-facebook-ipad {
+        background-image: url(../images/fbmini.svg);
+        width: 26px;
+        height: 26px;
+        opacity: 0.7;
+        position: absolute;
+        right: 2px;
+        top: 65px;
+    }
+    .footer-nav {
+        font-size: 12px;
+        gap: 45px;
+        margin-left: -4px;
+        margin-top: 80px;
+    }
+    .header-logo {
+        display: none;
+    }
+    .header-logo-phone {
+        display: block;
+        background-image: url(../images/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 97px;
+        height: 30px;
+        position: absolute;
+        top: 47px;
+        left: 123px;
+    }
+    .footer {
+        position: relative;
+        width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .footer-end {
+        display: block;
+        max-width: 340px;
+        margin-top: 80px;
+        text-align: center;
+    }
+    .phone-logo {
+        display: block;
+        background-image: url(../images/logo.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 78px;
+        height: 24px;
+    }
+    .text-box {
+        font-size: 16px;
+        line-height: 19.2px;
+        width: 140px;
+        height: 38px;
+        padding-left: 23px;
+        padding-top: 5px;
+    }
+    .banner h1 {
+        width: 343px;
+        font-size: 23px;  
+    }
+    .header {
+        margin-top: 2px;
+    }
+    .header-nav {
+        display: none;
+    }
+    .header-facebook {
+        width: 26px;
+        height: 26px;
+    }
+    .header-inst {
+        width: 26px;
+        height: 26px;
+    }
+    .banner-workout span {
+        margin-right: 12px;
+    }
+    .banner-workout {
+        font-size: 26px;
+        margin-bottom: 16px;
+    }
+    .botton-down {
+        margin-top: 69px;
+        height: 40px;
+        width: 40px;  
+    }
+    h2 {
+        font-size: 26px;
+        margin-left: -2px;
+        margin-bottom: 21px;
+    }
+    .box-button-ipad {
+        background-color: #2B3541;
+        color: #FBF138;
+        padding: 8px;
+        margin-left: 32px;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+    }
+    .img-button-ipad {
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 14px;
+        height: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .box-three {
+        display: none;
+    }
+    .box-gradient {
+        background: none;
+    }
+    .box-gradient:hover {
+       background: none;
+    }
+    .box-data {
+        font-size: 12px;
+        padding-left: 25px;
+        padding-top: 5px;
+    }
+    .box-button {
+        display: none;
+    }
+    .box-data-ipad {
+        font-size: 12px;
+        color: #2B3541;
+        font-weight: 700;
+        padding-top: 17px;
+        padding-left: 20px;
+    }
+    .box-type-ipad {
+        font-size: 12px;
+        color: #2B3541;
+        background-color: #FBF138;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        margin: 0;
+        width: 87px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-item-ipad {
+        border: 1px solid #2B3541;
+        position: relative;
+    }
+    .grid-item-active-ipad {
+        border: none;
+        position: relative;
+    }
+    .grid-item-ipad:nth-child(1) {
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+    .grid-item-ipad:nth-child(2) {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+    .grid-item-ipad:nth-child(3) {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+    .grid-item-active-ipad:nth-child(4) {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+    .grid-item-ipad:nth-child(5) {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+    .grid-item-ipad:nth-child(6) {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+    .active-ipad {
+        background: linear-gradient(180deg, #FBF138 0%, rgba(253, 249, 182, 0.45) 100%);
+        box-shadow: 0px 13px 30px rgba(186, 180, 69, 0.2);
+        opacity: 0.9;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+    .menu-grid {
+        display: none;
+    }
+    .subscription-items {
+        position: relative;
+        top: 41%;
+        padding: 0;
+        position: absolute;
+        left: 49%;
+        transform: translate(-50%, -50%);
+    }
+    .before-h {
+        font-size: 26px;
+    }
+    .before-text {
+        display: none;
+    }
+    .before-footer {
+        max-width: 340px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .flex-hp {
+        display: none;
+    }
+    .hp-h-ipad {
+        font-size: 16px;
+        line-height: 19.2px;
+    }
+    .hp-p-ipad {
+        font-size: 16px;
+        line-height: 24px;
+        opacity: 60%;
+    }
+    .flex-hp-ipad-one p {
+        width: 210px;
+    }
+    .flex-hp-ipad-two p {
+        width: 200px;
+    }
+    .footer-circle-ipad::before {
+        content: "";
+        display: inline-block;
+        width: 20px; 
+        height: 20px;
+        background: #FBF138;
+        box-shadow: 0px 13px 24px rgba(251, 241, 56, 0.3);
+        border-radius: 50%;
+        position: absolute;
+        top: -8px;
+        left: -17px;
+        z-index: -1;
+    }
+    .before-footer-items {
+        margin-bottom: 80px;
+    }
+    .footer-end p {
+        font-size: 10px;
+    }
+    .burger {
+        margin-left: -13px;
+    }
+    .flex-data {
+        margin-right: 21px;
+    }
+    
+}
+
+@media (max-width: 360px) {
+    .trainer {
+        width: 100%; 
+    }
+    .banner h1 {
+        width: 320px;
+    }
+    .before-button {
+        padding: 22px 103px;
+    }
+    .footer-nav {
+        gap: 40px;  
+    }
+    .footer-circle-ipad {
+        right: 208px;
+    }
+    .subscription-button {
+        padding: 24px 82px;
+    }
+}
+
+@media (max-width: 320px) {
+    .footer-circle-ipad {
+        right: 165px;
+    }
+    .footer-nav {
+        gap: 25px;
+        margin-left: -10px;  
+    }
+    .footer {
+        width: 270px;
+    }
+    .header-logo-phone {
+        left: 107px;
+    }
+    .before-button {
+        padding: 22px 83px;
+    }
+    .banner h1 {
+        width: 294px;
+    }
+    .banner-link {
+        padding: 23px 47px;
+    }
+    .before-text-ipad {
+        width: 260px;
+        font-size: 15px;
+    }
+    .text-box {
+        width: 120px;
+    }
+    .text-box {
+        padding-left: 7px;
+    }
+    .subscription-items {
+        left: 50%;
+    }
+    .subscription-button {
+        padding: 24px 72px;
+        margin-left: 4px;
+    }
+    .subscription-input {
+        padding-left: 9px;
+    }
+    .h-circle {
+        padding-left: 35px;
+    }
+    .h-circle::before {
+        top: 48px;
+        left: 36px;
+    }
+
+}
+
+@media (min-width: 1100px) {
     .burger {
         display: none;
     }
